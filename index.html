@@ -143,13 +143,13 @@
       <div class="contact-box"><label>EMAIL</label><a href="mailto:vedaconstructioninfo@gmail.com">✉ &nbsp; vedaconstructioninfo@gmail.com</a></div>
       <div class="contact-box"><label>LOCATION</label><p>⌖ &nbsp; Halsway, Hayes<br>&nbsp;&nbsp;&nbsp;&nbsp;UB3 3JS<br>&nbsp;&nbsp;&nbsp;&nbsp;United Kingdom</p></div>
     </div>
-    <form class="contact-form" action="mailto:vedaconstructioninfo@gmail.com" method="post" enctype="text/plain">
+    <form class="contact-form" action="https://formspree.io/f/mdekjlde" method="post">
       <div class="form-row">
-        <label>FULL NAME<input name="Full Name" type="text" placeholder="Your name"></label>
-        <label>PHONE NUMBER<input name="Phone Number" type="tel" placeholder="07123 456789"></label>
+        <label>FULL NAME</label><input name="name" type="text" placeholder="Your name"required>
+        <label>PHONE NUMBER</label<input name="phone" type="tel" placeholder="Your phone number"required>
       </div>
-      <label>EMAIL ADDRESS<input name="Email Address" type="email" placeholder="you@example.com"></label>
-      <label>SERVICE REQUIRED
+      <label>EMAIL ADDRESS</label><input name="Email Address" type="email" placeholder="you@example.com" required>
+      <label>SERVICE REQUIRED</label>
         <select name="Service Required">
           <option value="">Select a service</option>
           <option>Commercial Building Construction</option>
@@ -161,8 +161,8 @@
           <option>Groundwork & General Building</option>
           <option>Plumbing Services</option>
         </select>
-      </label>
-      <label>MESSAGE<textarea name="Message" placeholder="Tell us about your project..."></textarea></label>
+      
+      <label>MESSAGE</label><textarea name="message" placeholder="Tell us about your project..."required></textarea>
       <button class="submit" type="submit">SEND ENQUIRY</button>
     </form>
   </div>
